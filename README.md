@@ -86,9 +86,72 @@ for link in links:
     print("################################################")
 ```
 
-Add the text from the popup to the `links` variable. Make sure to remove any null values at the end
 
-You can modify the code to export in other formats, or get additional data.
+Paste the output of the javascript popup into the links variable. Be sure to remove any nulls that might be generated at the end of the list.
+
+Make sure `BeautifulSoup`, `requests` and `json` are available on your operating system's version of Python.
+
+The program will output like so:
+
+```
+date: 1475615708
+caption: From @mr_dog_spa #cutepetclub
+user: cutepetclub
+full name: Cute Pet Club
+comments: 597
+likes: 21712
+url: https://scontent-syd1-1.cdninstagram.com/t51.2885-15/e15/14488289_188979234844412_7114537064384692224_n.jpg?ig_cache_key=MTM1Mzg4NTE1MzQ0MTQyMjYxMg%3D%3D.2
+video: yes
+video views: 70070
+################################################
+date: 1475613401
+caption: 😍💞😍 TWO PaRTS OF ToP CLiPS iN THe PaST 😍💞😍 ViDeO : @marianne.holmli 
+#animals #animal #Pets #pet #dogsofinstagram #dog #puppy #hound #cutepuppy #instapuppy #puppies #cachorrinho #woof #fluffy #paws #cachorro #perro #baby #собака #щенок #babyanimals #funny #chowchow #love #anjing #chowchowpuppy #vine #강아지 #犬 #개 
+MY SPESIAL CHOW FRIENDS : 
+@SDSTaSiuK @DIGSBY_N_CiNDeReLLa_THe_CHoWS 
+@KHePeLKHaN.CHoWCHoW
+
+TaG YouR FRieNDs :👇👥👇
+user: chowchow.gallery
+full name: CHOWSTAGRAM CHoW CHoW PuPPieS
+comments: 363
+likes: 4297
+url: https://scontent-syd1-1.cdninstagram.com/t51.2885-15/e15/14606962_1323728720995088_3535359629137543168_n.jpg?ig_cache_key=MTM1Mzg2NTc5MzYwNzMwMjI4NQ%3D%3D.2
+video: yes
+video views: 10639
+################################################
+date: 1475606702
+caption: So precious 💕
+@mikelefebvre1
+user: ilovegolden_retrievers
+full name: I Love Golden Retrievers
+comments: 268
+likes: 15396
+url: https://scontent-syd1-1.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/14473915_1105621309485529_7287598845976903680_n.jpg?ig_cache_key=MTM1MzgwOTYwMTA5MDQzMjgxNg%3D%3D.2
+video: no
+################################################
+date: 1475618794
+caption: Photo by @lylathebernie
+user: babyanimalstagram
+full name: Baby Animal Instagram
+comments: 212
+likes: 11574
+url: https://scontent-syd1-1.cdninstagram.com/t51.2885-15/e35/14449346_391509197639414_4618319290473381888_n.jpg?ig_cache_key=MTM1MzkxMTAzNTI4MzQwMjAyNg%3D%3D.2
+video: no
+################################################
+date: 1475607841
+caption: pls don't talk to me ( @cabbagecatmemes )
+user: chaos.reigns_
+full name: chaos reigns
+comments: 337
+likes: 4498
+url: https://scontent-syd1-1.cdninstagram.com/t51.2885-15/e35/14515597_1413720808929307_990947391542657024_n.jpg?ig_cache_key=MTM1MzgxOTE1OTQ0MDM3OTAwNQ%3D%3D.2
+video: no
+################################################
+```
+
+You can modify the code to do more analysis
+
 
 ## Disclaimer
 This was written over a 1 hour period; it might be wrong and it will probaly break.
