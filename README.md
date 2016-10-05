@@ -84,4 +84,7 @@ for link in links:
     print("################################################")
 ```
 
-You can modify the code to export in other formats, or get additional data
+You can modify the code to export in other formats, or get additional data.
+
+## Disclaimer
+This was written over a 1 hour period; it might be wrong and it will probaly break.
