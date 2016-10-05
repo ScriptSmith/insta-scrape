@@ -86,6 +86,8 @@ for link in links:
     print("################################################")
 ```
 
+Add the text from the popup to the `links` variable. Make sure to remove any null values at the end
+
 You can modify the code to export in other formats, or get additional data.
 
 ## Disclaimer
