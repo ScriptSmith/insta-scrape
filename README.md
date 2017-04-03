@@ -60,12 +60,17 @@ Create a new python program by copying the following code
 import requests
 import json
 from bs4 import BeautifulSoup
-links =
+links = 
 
 for link in links:
     req = requests.get(link).text
     soup = BeautifulSoup(req, "html.parser")
-    data = json.loads(soup.find_all("script")[6].contents[0][21:-1])
+    scripts = soup.find_all("script")
+    for script in scripts:
+        if script.text[:18] == "window._sharedData":
+            break
+
+    data = json.loads(script.contents[0][21:-1])
     # print(json.dumps(data, indent=4))
     print("date: " + str(data["entry_data"]["PostPage"][0]["media"]["date"]))
     print("caption: " + str(data["entry_data"]["PostPage"][0]["media"]["caption"]))
