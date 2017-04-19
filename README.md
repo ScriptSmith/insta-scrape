@@ -1,4 +1,4 @@
-# Scraping an instagram hashtag - Working as of October 5th  2016
+# Scraping an instagram hashtag - Working as of April 19th, 2017
 
 **Basic knowledge of how a web browser works and how to use `Python 3` required**
 
@@ -159,4 +159,4 @@ You can modify the code to do more analysis
 
 
 ## Disclaimer
-This was written over a 1 hour period; it might be wrong and it will probaly break.
+This was written over a 1 hour period; it might be wrong and it will probably break.
