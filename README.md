@@ -2,7 +2,7 @@
 
 **Basic knowledge of how a web browser works and how to use `Python 3` required**
 
-Instagram's API no longer allows you to scrape data from a given hashtag. Thankfully, we can use its ReactJS backend to get it automatically with the browser, and a simple python program
+Instagram's API no longer allows you to scrape data from a given hashtag. Thankfully, we can use its backend to get it automatically with the browser, and a simple python program
 
 To get an instagram hashtag, visit this link:
 
