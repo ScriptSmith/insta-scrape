@@ -1,4 +1,10 @@
-# Scraping an instagram hashtag - Working as of April 19th, 2017
+# This project has been replaced
+
+Please visit [https://github.com/ScriptSmith/instamancer](https://github.com/ScriptSmith/instamancer) instead.
+
+This repository's code will remain here, unmaintained.
+
+## Scraping an instagram hashtag - Working as of April 19th, 2017
 
 **Basic knowledge of how a web browser works and how to use `Python 3` required**
 
